@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+
+#toolbar {
+    background-color: #31c0fd;
+    position: absolute;
+    height: 8%;
+    width: 100%;
+}
+
+#side-bar {
+    background-color: #314f4f;
+    position: absolute;
+    width: 8%;
+    height: 100%;
+}
