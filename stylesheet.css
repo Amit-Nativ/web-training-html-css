@@ -3,33 +3,100 @@ body {
     height: 100%;
 }
 
+p {
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 15px;
+    position: absolute;
+}
+
 .toolbar {
     background-color: #31c0fd;
-    height: 50px;
+    position: relative;
+    height: 65px;
     width: 100%;
 }
 
-.side-bar {
-    background-color: #314f4f;
+.mail-icon {
     position: absolute;
-    top: 50px;
+    left: 70px;
+    top: 10px;
+    max-height: 70%;
+}
+
+.title {
+    color: white;
+    font-size: 33px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    left: 120px;
+    top: 25px;
+}
+
+.side-bar {
+    background-color: black;
+    position: absolute;
+    width: 280px;
+    top: 65px;
     bottom: 0;
-    width: 100px;
+}
+
+.side-bar-item {
+    background-color: grey;
+    border-radius: 5px;
+    height: 45px;
+    margin: 2px;
+    line-height: 50px;
+    font-family: sans-serif;
+    color: white;
+    font-size: 17px;
+    padding-left: 4px;
+}
+
+.selected {
+    background-color: #f67e28;
 }
 
 .content {
-    background-color: #a9a9a9;
+    background-color: #333333;
     position: absolute;
     overflow: auto;
-    top: 50px;
-    left: 100px;
+    top: 65px;
+    left: 280px;
     right: 0;
     bottom: 0;
 }
 
-.rectangle {
+.mail-wrapper {
+    position: relative;
     margin: 5px auto auto;
-    height: 50px;
-    width: 50%;
-    border: 1px solid black;
+    padding: 5px 7px;
+    height: 60px;
+    width: 80%;
+    background-color: white;
+}
+
+.mail-title {
+    font-size: 30px;
+}
+
+.from {
+    font-weight: bold;
+    bottom: 5px;
+}
+
+.author {
+    left: 55px;
+    bottom: 5px;
+}
+
+.header-divider {
+    position: absolute;
+    border-left: 1px solid black;
+    height: 60px;
+    left: 200px;
+}
+
+.mail-text {
+    left: 210px;
 }
